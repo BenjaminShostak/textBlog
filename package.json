@@ -16,9 +16,5 @@
   "bugs": {
     "url": "https://github.com/BenjaminShostak/textBlog/issues"
   },
-  "homepage": "https://github.com/BenjaminShostak/textBlog#readme",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-handlebars": "^5.2.0"
-  }
+  "homepage": "https://github.com/BenjaminShostak/textBlog#readme"
 }
