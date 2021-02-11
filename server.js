@@ -21,7 +21,10 @@ app.get('/', ( req , res) => {
 });
 
 app.get('/signIn', ( req, res) => {
-    res.render('signIn', {title: 'signInPage'});
+    res.render('signIn', {title: 'signInPage', 
+    description: 'adding description for shits and giggles',
+    isAmazing: true ,
+    });
 });
 app.listen(8080, err =>  {
     if (err) {
