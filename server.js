@@ -22,8 +22,8 @@ app.get('/', ( req , res) => {
 
 app.get('/signIn', ( req, res) => {
     res.render('signIn', {title: 'signInPage', 
-    description: 'adding description for shits and giggles',
-    isAmazing: true ,
+    description: 'adding description for giggles',
+    isAmazing: true ,           //possibly use to automatically display old blog posts 
     });
 });
 app.listen(8080, err =>  {
