@@ -13,13 +13,14 @@ app.set('view engine', 'handlebars');
 
 
 //Routing
+//home route log-in
 app.get('/', ( req , res) => {
     res.render('index', {title: 'homepage',
     name: 'Benjamin Shostak',
     age: '33'
     });
 });
-
+//get request to sign in page
 app.get('/signIn', ( req, res) => {
     res.render('signIn', {title: 'signInPage', 
     description: 'adding description for giggles',
