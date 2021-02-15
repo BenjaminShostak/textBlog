@@ -1,12 +1,10 @@
-const express = require("express");
-const app =express();
-const Sequelize = require('sequelize');
+
+const mysql =require("mysql");
+
 
 require('dotenv').config();
 
 
-
-const mysql =require("mysql");
 
 const db = mysql.createConnection({
     user: "root",
